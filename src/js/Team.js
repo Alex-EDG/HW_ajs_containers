@@ -13,7 +13,7 @@ export default class Team {
 
   addAll(...newMembers) {
     newMembers.forEach( newMember => {
-      this.members.add(newMember);
+      this.add(newMember);
     });
   };
 
